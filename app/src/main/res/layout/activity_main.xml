@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="#625D5D"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#625D5D"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -24,6 +24,9 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <include
+        android:id="@+id/cardLogin"
+        android:layout="@layout/card_login" />
 
 
-</LinearLayout>
+    </LinearLayout>
